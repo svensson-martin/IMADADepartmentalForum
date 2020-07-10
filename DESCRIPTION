@@ -1,0 +1,16 @@
+Package: IMADADepartmentalForum
+Type: Package
+Title: Template for presentations at IMADA's Departmental Fora
+Version: 0.1.0
+Author@R: person("Martin", "Svensson", email = "svensson@imada.sdu.dk", role = c("aut", "cre"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: My template for presentations at IMADA's Departmental Fora. 
+URL: ""
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    tidyverse,
+    kableExtra,
+    gridExtra
+RoxygenNote: 7.1.0
