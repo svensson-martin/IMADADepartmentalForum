@@ -1,0 +1,30 @@
+---
+title: "Departmental Forum"
+author: IMADA
+date: XXX
+output:
+  beamer_presentation:
+    includes:
+      in_header: IFheader.txt
+classoption: "handout"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = F)
+library(tidyverse)
+library(kableExtra)
+library(gridExtra)
+```
+
+# About staff
+
+
+# Some final words
+
+
+
+---
+
+\pause
+
+\centerline{\Large Mutual information and any other business?}

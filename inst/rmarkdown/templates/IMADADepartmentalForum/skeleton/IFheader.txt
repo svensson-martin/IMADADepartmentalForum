@@ -1,0 +1,61 @@
+\usepackage{amsmath,amscd,amsthm,amsfonts,amssymb}
+\usepackage{xfrac}
+\usepackage{pgfpages}
+
+%Hyperrefs and urls
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+\urlstyle{same}
+
+%tikz
+\usepackage{tikz}
+\usetikzlibrary{mindmap, backgrounds, decorations,arrows,automata,petri,backgrounds,shadows,trees}
+%\tikzset{every node/.append style={scale=0.6}}
+
+%Various graphics
+\PassOptionsToPackage{demo}{graphicx}
+\def\Put(#1,#2)#3{\leavevmode\makebox(0,0){\put(#1,#2){#3}}}
+\usepackage{graphicx}
+
+%Could include logo
+%\newcommand\AtPagemyUpperLeft[1]{\AtPageLowerLeft{%
+%\put(\LenToUnit{0.83\paperwidth},\LenToUnit{0.88\paperheight}){#1}}}
+%\AddToShipoutPictureFG{
+%  \AtPagemyUpperLeft{{\includegraphics[width=2cm,keepaspectratio]{IMADA_en_black.png}}}
+%}%
+
+%\geometry{paperwidth=140mm,paperheight=105mm}
+
+%Language
+\usepackage[T1]{fontenc}
+\usepackage[danish]{babel}
+\usepackage[scaled]{gillius2}
+
+%No navigation symbols
+\beamertemplatenavigationsymbolsempty
+
+%Themes and colours
+\usetheme{default}
+\useinnertheme{circles}
+\usecolortheme[RGB={96,96,96}]{structure}
+\setbeamercolor{normal text}{fg=black!75}
+\setbeamercolor{frametitle}{fg=black!75}
+\usepackage{color, colortbl}
+\definecolor{gray}{rgb}{0.5, 0.5, 0.5}
+\definecolor{ao}{rgb}{0.0, 0.5, 0.0}
+
+%Handout possibilities
+%\mode<handout>{\setbeamercolor{background canvas}{bg=black!5}}
+%\pgfpagesuselayout{4 on 1}[a4paper, border shrink=5mm, landscape]
+
+%Separations for lists
+%\setlength{\itemsep}{0pt}
+\setlength{\parskip}{0pt}
+%\setlength{\parsep}{0pt}
+%\setlist[itemize]{noitemsep, topsep=0pt}
