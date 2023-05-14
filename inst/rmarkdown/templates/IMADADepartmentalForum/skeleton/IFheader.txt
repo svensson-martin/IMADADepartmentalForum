@@ -2,6 +2,8 @@
 \usepackage{xfrac}
 \usepackage{pgfpages}
 
+\usepackage{booktabs}
+
 %Hyperrefs and urls
 \usepackage{hyperref}
 \hypersetup{

@@ -22,6 +22,11 @@ library(gridExtra)
 # Some final words
 
 
+---
+
+\pause
+
+\centerline{\Large Anything to discuss from the newsletter?}
 
 ---
 
