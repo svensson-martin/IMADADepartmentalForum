@@ -21,6 +21,11 @@ library(gridExtra)
 
 # Some final words
 
+---
+
+\pause
+
+\centerline{\Large News from committees, boards and councils}
 
 ---
 
