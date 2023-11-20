@@ -25,6 +25,12 @@ library(gridExtra)
 
 \pause
 
+\centerline{\Large News from the Teaching Committee}
+
+---
+
+\pause
+
 \centerline{\Large News from committees, boards and councils}
 
 ---
