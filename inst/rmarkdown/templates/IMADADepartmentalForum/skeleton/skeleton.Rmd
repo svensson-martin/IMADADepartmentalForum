@@ -16,16 +16,13 @@ library(kableExtra)
 library(gridExtra)
 ```
 
-# About staff
-
-
 # Some final words
 
 ---
 
 \pause
 
-\centerline{\Large News from the Teaching Committee}
+\centerline{\Large News about teaching}
 
 ---
 
