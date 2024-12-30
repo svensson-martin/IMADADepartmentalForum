@@ -4,6 +4,7 @@ author: IMADA
 date: XXX
 output:
   beamer_presentation:
+    keep_tex: true
     includes:
       in_header: IFheader.txt
 classoption: "handout"
